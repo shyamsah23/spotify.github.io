@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/217e0ea5f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About  US</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best Songs</h1>
+            <div class="songItemConatiner">
+                <div class="songItem">
+                    <img s alt="Raataan_Lambiyan">
+                    <span class="songName">Raataan Lambiyan</span>
+                    <span class="songlistPlay"><span><span class="Time">05:36</span><i id="0" class="fa-solid songItemPlay fa-1x fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img s alt="Tune Jo Na kaha">
+                    <span class="songName">Tune Jo Na kaha</span>
+                    <span class="songlistPlay"><span><span class="Time">05:36</span><i id="1" class="fa-solid songItemPlay fa-1x fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="Raataan_Lambiyan">
+                    <span class="songName">Chaand Baaliyan</span>
+                    <span class="songlistPlay"><span><span class="Time">05:36</span><i id="2" class="fa-solid songItemPlay fa-1x fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="Raataan_Lambiyan">
+                    <span class="songName"> Khamoshiyan</span>
+                    <span class="songlistPlay"><span><span class="Time">05:36</span><i id="3" class="fa-solid songItemPlay fa-1x fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="Raataan_Lambiyan">
+                    <span class="songName">Raataan Lambiyan</span>
+                    <span class="songlistPlay"><span><span class="Time">05:36</span><i id="4" class="fa-solid songItemPlay fa-1x fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="Raataan_Lambiyan">
+                    <span class="songName">Raataan Lambiyan</span>
+                    <span class="songlistPlay"><span><span class="Time">05:36</span><i id="5" class="fa-solid songItemPlay fa-1x fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="Raataan_Lambiyan">
+                    <span class="songName">Raataan Lambiyan</span>
+                    <span class="songlistPlay"><span><span class="Time">05:36</span><i id="6" class="fa-solid songItemPlay fa-1x fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="Raataan_Lambiyan">
+                    <span class="songName">Raataan Lambiyan</span>
+                    <span class="songlistPlay"><span><span class="Time">05:36</span><i id="7" class="fa-solid songItemPlay fa-1x fa-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="'0" value="0" max="'100">
+        <div class="icons">
+            <!--font awsome icons-->
+            <i class="fa-solid fa-2x fa-backward-step" id="prev"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+            
+        </div>
+        <div class="songInfoLeft">
+            <img src="playing.gif" alt="--" id="gif1">
+            <img src="playing.gif" alt="" id="gif2">
+        </div>
+        <div class="songInfoRight">
+            <img src="playing.gif" alt="--" id="gif3">
+            <img src="playing.gif" alt="" id="gif4">
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
